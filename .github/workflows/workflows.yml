@@ -3,7 +3,7 @@ name: Fetch Favorites Tweets
 on:
   push:
     branches:
-      - main
+      - master
   schedule: # Event that triggers workflow
     - cron: '0 0 * * *' # Everyday at midnight
 
