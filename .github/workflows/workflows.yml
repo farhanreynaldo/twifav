@@ -1,6 +1,12 @@
 name: Fetch Favorites Tweets
 
-    
+on:
+  push:
+    branches:
+      - main
+  schedule: # Event that triggers workflow
+    - cron: '0 0 * * *' # Everyday at midnight
+
 jobs:
   collect-data-job:
     name: Fetch Favorites Tweets
