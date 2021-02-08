@@ -1,0 +1,44 @@
+name: Fetch Favorites Tweets
+
+    
+jobs:
+  collect-data-job:
+    name: Fetch Favorites Tweets
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout Repository.
+        uses: actions/checkout@v2
+
+
+      - name: Setup Python 3.7.
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7' 
+
+
+      - name: Decrypt Secrets file.
+        run: ./.github/scripts/decrypt_secret.sh
+        env:
+          SECRET_PASSPHRASE: ${{ secrets.SECRET_PASSPHRASE }}
+
+
+      - name: Install dependencies and run script.
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python scrape.py
+        env:
+          CONSUMER_KEY: $
+          CONSUMER_SECRET: $
+          ACCESS_TOKEN: $
+          ACCESS_TOKEN_SECRET: $
+
+
+      - name: Commit data to repo.
+        run: |
+          git config --global user.email "farhanreynaldo@gmail.com"
+          git config --global user.name "Farhan Reynaldo"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
