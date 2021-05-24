@@ -1,0 +1,1 @@
+{"created_at": "Sun May 23 03:11:44 +0000 2021", "timestamp": "2021-05-23T03:11:44+00:00", "id": 1396302801005916162, "id_str": "1396302801005916162", "full_text": "@xynx Looks cool! 😃", "urls": [], "images": [], "user_id": 944231, "username": "statwonk", "link": "https://twitter.com/statwonk/status/1396302801005916162"}
