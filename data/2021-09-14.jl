@@ -1,0 +1,1 @@
+{"created_at": "Mon Sep 13 14:16:26 +0000 2021", "timestamp": "2021-09-13T14:16:26+00:00", "id": 1437419908791345157, "id_str": "1437419908791345157", "full_text": "@xynx yolo", "urls": [], "images": [], "user_id": 14808637, "username": "RM_NgabeiSlamet", "link": "https://twitter.com/RM_NgabeiSlamet/status/1437419908791345157"}
