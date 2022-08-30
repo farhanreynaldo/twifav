@@ -1,0 +1,1 @@
+{"created_at": "Mon Aug 29 10:10:19 +0000 2022", "timestamp": "2022-08-29T10:10:19+00:00", "id": 1564193722081767424, "id_str": "1564193722081767424", "full_text": "@xynx ah salam kenal kalo gitu Aldo!", "urls": [], "images": [], "user_id": 56244797, "username": "andradjaafara", "link": "https://twitter.com/andradjaafara/status/1564193722081767424"}
