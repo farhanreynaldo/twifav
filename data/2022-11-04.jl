@@ -1,0 +1,1 @@
+{"created_at": "Wed Nov 02 23:38:14 +0000 2022", "timestamp": "2022-11-02T23:38:14+00:00", "id": 1587952254316777472, "id_str": "1587952254316777472", "full_text": "@YFeyman https://t.co/JvMdRt9Hc6", "urls": ["http://Bayes.club"], "images": [], "user_id": 1232326955652931584, "username": "cameron_pfiffer", "link": "https://twitter.com/cameron_pfiffer/status/1587952254316777472"}
