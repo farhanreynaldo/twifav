@@ -1,0 +1,1 @@
+{"created_at": "Thu Nov 24 10:23:33 +0000 2022", "timestamp": "2022-11-24T10:23:33+00:00", "id": 1595724796817723395, "id_str": "1595724796817723395", "full_text": "@xynx Congrats aldoo!", "urls": [], "images": [], "user_id": 36006862, "username": "riiaaa______", "link": "https://twitter.com/riiaaa______/status/1595724796817723395"}
