@@ -10,7 +10,7 @@ on:
 jobs:
   collect-data-job:
     name: Fetch Favorites Tweets
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository.
         uses: actions/checkout@v2
